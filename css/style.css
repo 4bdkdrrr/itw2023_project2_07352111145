@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-item {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+
+/* end mavbar */
+
+
+/* search */
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid #e6a53e;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background-color: #e6a53e;
+    color: black;
+    font-weight: 700;
+}
+
+
+/*  end search */
