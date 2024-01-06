@@ -85,3 +85,26 @@
 }
 
 /*  end main */
+
+/* menu */
+
+.menu .img-luid:hover {
+  margin: 12px;
+  padding: 16px;
+  background-color: #e6a53e;
+  color: white;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* end menu */
+
+/* product */
+
+.product h1 {
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  color: #e6a53e;
+}
+
+/*  end product */
