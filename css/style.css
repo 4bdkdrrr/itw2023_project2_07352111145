@@ -1,93 +1,87 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
 
 /* navbar */
 
 .navbar-brand {
-    font-size: 2.5rem;
-    color: black;
-    font-family: "lobster", cursive;
+  font-size: 2.5rem;
+  color: black;
+  font-family: "lobster", cursive;
 }
 
 .navbar-brand:hover {
-    color: black;
+  color: black;
 }
 
 .nav-link {
-    margin-right: 10px;
-    margin-left: 10px;
-    color: black;
-    font-family: "poppins", sans-serif;
-    text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  font-family: "poppins", sans-serif;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
-    color: #e6a53e;
-    border-radius: 20px;
+  color: #e6a53e;
+  border-radius: 20px;
 }
 
-
 /* end mavbar */
-
 
 /* search */
 
 .search {
-    height: 40px;
-    width: 80%;
-    border-radius: 60px;
-    outline: none;
-    margin-right: -35px;
-    border: 2px solid #e6a53e;
-    font-family: "poppins";
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid #e6a53e;
+  font-family: "poppins";
 }
 
 .btn0 {
-    height: 40px;
-    width: 40%;
-    outline: none;
-    border: none;
-    border-radius: 60px;
-    background-color: #e6a53e;
-    color: white;
-    font-weight: 700;
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-radius: 60px;
+  background-color: #e6a53e;
+  color: white;
+  font-weight: 700;
 }
 
-
 /*  end search */
-
 
 /* main */
 
 .main {
-    background: url("/img/bg.jpg") no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-position: 50% 50%;
-    width: 100%;
+  background: url("/img/bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
 }
 
 .main h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    font-family: "poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
 }
 
 .btn1 {
-    height: 45px;
-    width: 35%;
-    border: none;
-    outline: none;
-    background-color: #e6a53e;
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #e6a53e;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
 }
-
 
 /*  end main */
