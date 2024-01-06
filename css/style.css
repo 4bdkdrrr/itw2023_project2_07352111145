@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300;400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +7,12 @@
 }
 
 /* navbar */
+
+/* .nav {
+  display: flex;
+  top: 0;
+  width: 1200px;
+} */
 
 .navbar-brand {
   font-size: 2.5rem;
@@ -71,6 +78,7 @@
   font-size: 4rem;
   font-weight: 700;
   font-family: "poppins", sans-serif;
+  color: white;
 }
 
 .btn1 {
@@ -84,6 +92,11 @@
   border-radius: 60px;
 }
 
+.btn1:hover {
+  background: #b1781c;
+  transform: 0.5s;
+}
+
 /*  end main */
 
 /* menu */
@@ -94,7 +107,7 @@
   background-color: #e6a53e;
   color: white;
   border-radius: 8px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 /* end menu */
@@ -107,4 +120,76 @@
   color: #e6a53e;
 }
 
+.card:hover {
+  box-shadow: 9px 9px 53px -7px rgba(230, 165, 62, 0.75);
+  -webkit-box-shadow: 9px 9px 53px -7px rgba(230, 165, 62, 0.75);
+  -moz-box-shadow: 9px 9px 53px -7px rgba(230, 165, 62, 0.75);
+  transition: 1s;
+}
+
 /*  end product */
+
+/* about */
+
+.about h1 {
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  color: #e6a53e;
+}
+
+.about h6 {
+  line-height: 2px;
+  font-weight: 300;
+  font-family: "lobster", cursive;
+}
+
+.about p {
+  text-align: left;
+  font-family: "poppins", sans-serif;
+}
+
+/*  end about */
+
+/* contact */
+
+.contact h1 {
+  font-family: "poppins", sans-serif;
+  color: #e6a53e;
+  font-weight: 600;
+}
+
+/*  end contact */
+
+/* footer */
+
+.footer {
+  padding: 1rem 0;
+  background-color: #e6a53e;
+}
+
+.footer-icons {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.footer-icons a {
+  margin: 0 0.5rem;
+}
+
+.footer-icons svg {
+  fill: #e6a53e;
+}
+
+.footer-icons a:hover svg {
+  fill: #b1781c;
+}
+
+.foot {
+  background-color: #e6a53e;
+  color: white;
+  font-weight: 400;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+
+/*  end footer */
